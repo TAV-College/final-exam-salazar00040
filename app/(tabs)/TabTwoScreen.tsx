@@ -1,13 +1,13 @@
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
-import IncreaseButton from '@/components/IncreaseButton';
+import EditScreenInfo from '@/components/EditScreenInfo';
 import { Text } from '@/components/Themed';
 
-export default function TabOneScreen() {
+export default function TabTwoScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Tab One</Text>
-      <IncreaseButton /> 
+      <Text style={styles.title}>Tab Two</Text>
+      <EditScreenInfo path="app/(tabs)/index.tsx" /> 
     </View>
   );
 }
